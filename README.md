@@ -97,6 +97,18 @@ You must add your own Firebase config files to run the project.
   <img src="https://github.com/user-attachments/assets/0d7b9d58-2572-4874-b6ba-eabdced0f3b5" width="30%" />
 </p>
 
+<p align="center">
+  <img width="492" height="1055" alt="Screenshot 2025-09-06 131054" src="https://github.com/user-attachments/assets/ca1fcb39-3479-4ed0-ae53-d8b3333b60f5" />
+  <img width="489" height="1066" alt="Screenshot 2025-09-06 131112" src="https://github.com/user-attachments/assets/035122ac-ad58-4050-bc0b-c1d8d0a47960" />
+  <img width="491" height="1063" alt="Screenshot 2025-09-06 131130" src="https://github.com/user-attachments/assets/b46122d6-fde9-44d3-91c8-5ce98467c796" />
+</p>
+
+<p align="center">
+  <img width="490" height="1062" alt="Screenshot 2025-09-06 131155" src="https://github.com/user-attachments/assets/54642b3a-8730-4eb5-aad7-6b55593a835b" />
+  <img width="490" height="1050" alt="Screenshot 2025-09-06 131334" src="https://github.com/user-attachments/assets/eb848209-160b-48b4-a028-6015b1d7557a" />
+  <img width="491" height="1065" alt="Screenshot 2025-09-06 131349" src="https://github.com/user-attachments/assets/eb330d52-1887-40d0-9e20-dfe788171c20" />
+</p>
+
 ---
 
 ## 👨‍💻 Author

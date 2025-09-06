@@ -1,16 +1,110 @@
-# shopby
+# 🛍️ ShopBy - Flutter E-Commerce App
 
-A new Flutter project.
+ShopBy is a modern **E-Commerce App** built with **Flutter** using **MVVM architecture**.  
+It integrates **Firebase Authentication, Firestore, and Realtime Database** for secure and scalable backend support.  
+State management is handled with **Riverpod** to keep the app clean, testable, and maintainable.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 📱 **Flutter MVVM architecture** (separation of UI & business logic)
+- 🔑 **Firebase Authentication** (Sign up, Login, Logout)
+- 🛒 **Product listing & details**
+- 📊 **Realtime Database** & **Firestore** integration
+- 🌙 Clean and responsive UI
+- ⚡ Powered by **Riverpod state management**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Frontend:** Flutter (Dart)
+- **State Management:** Riverpod
+- **Backend:** Firebase  
+  - Authentication  
+  - Firestore Database  
+  - Realtime Database  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+Follow these steps to run the project locally:
+
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed
+- A Firebase project with:
+  - `google-services.json` (Android)
+  - `GoogleService-Info.plist` (iOS)
+  - `firebase_options.dart` (generated via `flutterfire configure`)
+
+### Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/CoderShahzaib/ShopBy.git
+   ```
+2. Navigate into the project folder:
+   ```bash
+   cd ShopBy
+   ```
+3. Get the dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Add your Firebase configuration files:
+   - `lib/firebase_options.dart`
+   - `android/app/google-services.json`
+   - `ios/Runner/GoogleService-Info.plist`
+5. Run the app:
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📂 Project Structure (MVVM)
+```
+lib/
+├── models/        # Data models
+├── view/          # UI Screens
+├── view_model/    # Business logic & state management
+├── services/      # Firebase & API services
+└── widgets/       # Reusable UI components
+```
+
+---
+
+## 🔒 Important Note
+For security reasons:
+- `firebase_options.dart`
+- `google-services.json`
+- `GoogleService-Info.plist`
+
+are **not included** in this repository.  
+You must add your own Firebase config files to run the project.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/33523252-af7a-4b9f-a457-0228f94cd02b" width="30%" />
+  <img src="https://github.com/user-attachments/assets/cecd1864-ca3e-4790-96e3-ff3966875967" width="30%" />
+  <img src="https://github.com/user-attachments/assets/90cb8b4e-4750-421b-9a7e-5aae4e4e162b" width="30%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7b20ca07-6eb7-4fd0-9492-02148710bce6" width="30%" />
+  <img src="https://github.com/user-attachments/assets/2a1b1243-9861-407d-9b21-8bfc8d587c82" width="30%" />
+  <img src="https://github.com/user-attachments/assets/0d7b9d58-2572-4874-b6ba-eabdced0f3b5" width="30%" />
+</p>
+
+---
+
+## 👨‍💻 Author
+**Shahzaib Jillani (CoderShahzaib)**  
+Flutter Developer | Firebase Enthusiast  
+
+🔗 [GitHub](https://github.com/CoderShahzaib)  
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
